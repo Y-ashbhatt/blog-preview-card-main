@@ -10,11 +10,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -41,7 +38,7 @@ Mobile
 ### Links
 
 - Solution URL: [(https://github.com/Y-ashbhatt/blog-preview-card-main)]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [(https://y-ashbhatt.github.io/blog-preview-card-main/)]
 
 ## My process
 
