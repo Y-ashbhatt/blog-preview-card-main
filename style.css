@@ -33,7 +33,7 @@ body {
   background-color: white;
   border-radius: 1rem;
   border: 2px solid var(--Black);
-  box-shadow: 10px 10px var(--Black);
+  box-shadow: 9px 9px var(--Black);
 }
 .blog-card:hover {
     box-shadow: 14px 16px var(--Black);
