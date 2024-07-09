@@ -36,7 +36,7 @@ body {
   box-shadow: 10px 10px var(--Black);
 }
 .blog-card:hover {
-    box-shadow: 12px 14px var(--Black);
+    box-shadow: 14px 16px var(--Black);
   }
 .image {
   border-radius: 2.5rem;
