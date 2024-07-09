@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap");
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+*,
+*::before,
+* ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--Yellow);
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Figtree";
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  max-width: 384px;
+  max-height: 522px;
+  background-color: white;
+  border-radius: 1rem;
+  border: 2px solid var(--Black);
+  box-shadow: 10px 10px var(--Black);
+}
+.blog-card:hover {
+    box-shadow: 12px 14px var(--Black);
+  }
+.image {
+  border-radius: 2.5rem;
+  width: 100%;
+  padding: 23px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 23px;
+  margin-top: -25px;
+}
+
+.highlight {
+  background-color: var(--Yellow);
+  padding: 6px 10px;
+  width: 80px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+}
+.date {
+  font-size: 14px;
+  padding-top: 14px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: var(--Yellow);
+}
+.description {
+  line-height: 1.4rem;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--Grey);
+  padding-top: 20px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 800;
+  padding-top: 20px;
+}
+.profile-image {
+  width: 35px;
+  height: 35px;
+}
+/* -------------MOBILE--------------- */
+
+@media screen and (max-width: 375px) {
+  .blog-card {
+    width: 325px;
+    height: 480px;
+  }
+  .title {
+    font-size: 1.275rem;
+  }
+  .highlight {
+    margin-top: 5px;
+    font-size: 15px;
+    width: 80px;
+  }
+  .date {
+    font-size: 13px;
+  }
+  .description{
+    font-size: 14px;
+  }
+  .profile {
+    padding-top: 25px;
+  }
+}
